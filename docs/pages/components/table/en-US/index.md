@@ -68,7 +68,7 @@ const { Column, HeaderCell, Cell, Pagination } = Table;
 
 - scrollTop
 
-垂直滚动条滚动到指定位置
+The vertical scroll bar scrolls to the specified position
 
 ```ts
 scrollTop: (top: number) => void;
@@ -76,7 +76,7 @@ scrollTop: (top: number) => void;
 
 - scrollLeft
 
-横向滚动条滚动到指定位置
+The horizontal scroll bar scrolls to the specified position
 
 ```ts
 scrollLeft: (left: number) => void;
